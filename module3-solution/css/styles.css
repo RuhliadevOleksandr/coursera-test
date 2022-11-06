@@ -1,0 +1,19 @@
+.navbar{
+	background: darkgray;
+}
+#collapsable{
+	border: 0;
+}
+#collapsable li{
+	border: 1px black solid;
+	text-align: center;
+}
+#large{
+	height: 1000px;
+}
+.row{
+	padding: 15px;
+}
+.col-xs-12{
+	background: darkgray;
+}
