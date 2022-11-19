@@ -2,16 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Module 3</title>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <title>Assignment Solution for Module 3</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
 <body>
-  <nav class="navbar navbar-default">
+	<nav class="navbar navbar-default">
   <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable" aria-expanded="false">
+      <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -20,25 +30,27 @@
       <a class="navbar-brand" href="#">Food, LLC</a>
     </div>
 
-    <div class="collapse navbar-collapse" id="collapsable">
-      <ul class="nav navbar-nav navbar-right visible-xs">
-        <li><a href="#">Chicken</a></li>
-        <li><a href="#">Beef</a></li>
-        <li><a href="#">Sushi</a></li>
+    <!-- Collect the nav content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-collapsed">
+      <ul class="nav navbar-nav">
+        <li><a href="#" class="text-center">Chicken</a></li>
+        <li><a href="#" class="text-center">Beef</a></li>
+        <li><a href="#" class="text-center">Sushi</a></li>
       </ul>
-    </div>
-  </div>
-</nav>
-  
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  </nav>
+
   <h1 class="text-center">Our Menu</h1>
-  <div class="container-fluid">
-    <article class="row">
-      <div class="col-xs-12">
-        <h2 class="text-center">Chicken</h2>
-        <p id="large">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum quam vitae ante pellentesque varius. Pellentesque tristique, mi eget posuere pretium, mauris lorem mollis massa, sed fermentum ligula orci nec leo. Donec feugiat est at enim mollis, nec aliquet metus placerat. Sed eget neque pulvinar, volutpat ante eu, tincidunt ipsum. Pellentesque porttitor consectetur nibh et imperdiet. Duis sit amet malesuada neque. Curabitur aliquet velit diam, sit amet molestie justo consectetur vitae. Fusce ornare, justo nec luctus vulputate, augue ante tincidunt lacus, at suscipit massa libero ac orci. Proin ultricies felis eget tellus ultrices, sed suscipit ex commodo. Nullam in porttitor nisl, rutrum facilisis nunc. Vestibulum erat sapien, feugiat ut commodo vel, lobortis in mauris. In sollicitudin tortor ac dapibus ultricies. Cras congue mi id enim auctor, ut pellentesque tortor consectetur.</p>
-      </div>
+
+  <main class="container-fluid">
+    <div class="row">
+    <article class="col-xs-12">
+      <h2 class="text-center">Chicken</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>
     </article>
-  </div>
+    </div>
+  </main>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
